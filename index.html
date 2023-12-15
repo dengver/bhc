@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>윤선경 - bhcWebRenewal</title>
+    <!-- 스크립트 -->
+    <script src="./script/jquery-1.9.1.min.js"></script>
+    <script src="./script/jquery.easing.1.3.min.js"></script>
+    <script src="./script/script.js"></script> 
+    <!-- slick plugin - js : 무한재생?-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script type="text/JavaScript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- slick plugin - css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 파비콘 -->
+    <link rel="shoutcut icon" href="./images/favicon.svg">
+    <!-- 아이콘 -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- 애니메이트 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="container">
+                <h1 class="logo">
+                    <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                </h1>
+                <!-- //logo -->
+                <nav class="nav">
+                    <ul>
+                            <li>
+                                <a href="https://www.bhc.co.kr/menu/best.asp">메뉴소개</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.bhc.co.kr/menu/best.asp">NEW & BEST</a></li>
+                                    <li><a href="https://www.bhc.co.kr/menu/chicken.asp">치킨 & 폭립</a></li>
+                                    <li><a href="https://www.bhc.co.kr/menu/other.asp">사이드 & 소스</a></li>
+                                    <li><a href="https://www.bhc.co.kr/menu/other2.asp">기타</a></li>
+                                    <li><a href="https://www.bhc.co.kr/menu/beerzone.asp">비어존</a></li>
+                                    <li><a href="https://www.bhc.co.kr/hmr/hmr.asp">HMR / 펫푸드</a></li>
+                                    <li><a href="https://www.bhc.co.kr/menu/allergy.asp">알레르기 정보</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">브랜드 스토리</a>
+                                <ul class="submenu">
+                                    <li><a href="#">CEO 인사말</a></li>
+                                    <li><a href="#">BHC 연혁</a></li>
+                                    <li><a href="#">BHC 차별화 전략</a></li>
+                                    <li><a href="#">BHC 푸드생산공장</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">창업정보</a>
+                                <ul class="submenu">
+                                    <li><a href="#">BHC 경쟁력</a></li>
+                                    <li><a href="#">가맹점 개설</a></li>
+                                    <li><a href="#">창업FAQ</a></li>
+                                    <li><a href="#">해외사업 문의</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">BHC 소식</a>
+                                <ul class="submenu">
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">CF/동영상</a></li>
+                                    <li><a href="#">소셜 BHC</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">매장찾기</a>
+                                <ul class="submenu">
+                                    <li><a href="#">매장검색</a></li>
+                                    <li><a href="#">지도검색</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">고객센터</a>
+                                <ul class="submenu">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">고객의 소리</a></li>
+                                    <li><a href="#">E쿠폰</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+        <main>
+            <!-- section#main_slides>ul.slides_container>li*6>a -->
+            <article id="main_slides">
+                <!-- slide -->
+                <ul class="slides_container">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <!-- 인디케이터 -->
+                <!-- ul.slides-pagenation>li*6>a -->
+                <ul class="slides-pagenation">
+                    <li class="on"><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <!-- 이전, 다음버튼 -->
+                <!-- a#prev.slides-navigation.slides-prev -->
+                <a href="#" id="prev" class="slides-navigation slides-prev"></a>
+                <a href="#" id="next" class="slides-navigation slides-next"></a>
+            </article>
+            <!-- //main_slides -->
+            <section id="contents">
+                <div class="container">
+                    <section class="menu wow animate__animated animate__fadeInLeft  animate__bounce">
+                            <h2>메뉴</h2><img src="./images/icon-1.png" alt="포크나이프 아이콘">
+                            <div class="menuBtn">
+                                <ul>
+                                    <li><a href="#" class="active">치킨</a></li>
+                                    <li><a href="#">폭립</a></li>
+                                    <li><a href="#">사이드</a></li>
+                                    <li><a href="#">피자</a></li>
+                                    <li><a href="#">기타</a></li>
+                                </ul>
+                            </div>
+                            <!-- //content1 > 대분류 메뉴 -->
+                            <div class="menuBox">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="scale"><img src="./images/img-1.png" alt="핫 후라이드 콤보"></a>
+                                        <p>핫 후라이드 콤보</p>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="scale"><img src="./images/img-2.png" alt="골드킹 콤보"></a>
+                                        <p>골드킹 콤보</p>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="scale"><img src="./images/img-3.png" alt="뿌링클 콤보"></a>
+                                        <p>뿌링클 콤보</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- //content1 > 대표메뉴 3가지 -->
+                            <div class="slideBtn">
+                                <a href="#"><ion-icon name="chevron-back-circle-outline"></ion-icon></a>
+                                <a href="#"><ion-icon name="chevron-forward-circle-outline"></ion-icon></a>
+                            </div>
+                        
+                        <!-- //menu -->
+                    </section>
+                </div>
+                    <!-- //Menu -->
+                    <section class="biz_bg wow animate__animated animate__fadeInRight animate__bounce">
+                        <div class="bizWrap">
+                            <h2><img src="./images/logo-group.png" alt="bhc그룹로고">사업설명회</h2>
+                            <div class="bizImg">
+                                <img src="./images/bg-pic.jpg" alt="사업설명회 이미지">
+                                <div class="bizText">
+                                    <p>수익성 1위 BHC로 초대합니다! <br>
+                                        BHC와 함께 가요! 1등으로!
+                                    </p>
+                                    <h3>창업문의 및 전화신청 <br>
+                                    080.400.9003
+                                    </h3>
+                                    <p>면단위 창업 특별혜택을 드립니다.</p>
+                                    <span>자세히 보기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- //content2 -->
+                <div class="container">
+                    <section class="content3 wow animate__animated animate__pulse ">
+                        <h2>신제품 출시</h2><img src="./images/icon-2.png" alt="파티 아이콘">
+                        <ul>
+                            <li>
+                                <a href="https://bhcmall.co.kr/goods/search.asp?sword=%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4"><img src="./images/newMenu_1.jpg" alt="리얼 닭가슴살"></a>
+                                <div class="newMenuText n1">
+                                    <h4>국내산 닭가슴살로 만든</h4>
+                                    <h3>리얼 닭가슴살</h3>
+                                    <p>bhc만의 노하우로 만든 <br>
+                                    부드럽고 깔끔한 가정간편식
+                                    </p>
+                                    <a href="https://bhcmall.co.kr/goods/search.asp?sword=%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4">
+                                        <span>자세히 보기</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://bhcmall.co.kr/goods/detail.asp?gno=783&cate=411"><img src="./images/newMenu_2.jpg" alt="bhc 멍쿠키"></a>
+                                <div class="newMenuText n2">
+                                    <h4>소중한 내 반려견에게 추천하는</h4>
+                                    <h3>bhc 멍쿠키</h3>
+                                    <p>16가지 과채 혼합 분말로 만든 <br>
+                                    식이섬유와 비타민이 풍부한<br>
+                                    반려동물 웰빙 쿠키</p>
+                                    <a href="https://bhcmall.co.kr/goods/detail.asp?gno=783&cate=411">
+                                        <span>자세히 보기</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                    <!-- //content3 -->
+            </section>
+        </main>
+        <!-- //main -->
+        <footer id="footer">
+            <div class="footer1">
+                <div class="familySite">
+                    <ul>
+                        <li><a href="http://www.bhcgroup.co.kr/"><img src="./images/img_bottom_brand1.jpg" alt="패밀리 사이트1"></a></li>
+                        <li><a href="https://www.outback.co.kr/"><img src="./images/img_bottom_brand2.jpg" alt="패밀리 사이트2"></a></li>
+                        <li><a href="http://www.changgo43.co.kr/00_main/main.asp"><img src="./images/img_bottom_brand3.jpg" alt="패밀리 사이트3"></a></li>
+                        <li><a href="http://www.bkfood.kr/renew/"><img src="./images/img_bottom_brand4.jpg" alt="패밀리 사이트4"></a></li>
+                        <li><a href="#"><img src="./images/img_bottom_brand5.jpg" alt="http://jokbalstore.com/"></a></li>
+                        <li><a href="#"><img src="./images/img_bottom_brand66.jpg" alt="http://www.gram-gram.com/renew/"></a></li>
+                        <li><a href="http://www.superduperburger.co.kr/"><img src="./images/img_bottom_brand7_2.png" alt="패밀리 사이트7"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="footerWrap">
+                    <div class="footer2-1">
+                        <div class="one">
+                            <ul>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#" class="active">개인정보 처리방침</a></li>
+                                <li><a href="#">위치기반서비스</a></li>
+                                <li><a href="#">이메일무단수집거부</a></li>
+                                <li><a href="#">사이트맵</a></li>
+                                <li class="famillySite">
+                                    <select name="select" id="select">
+                                        <option value="famillySite">패밀리 사이트</option>
+                                        <option value="famillySite1">bhc그룹</option>
+                                        <option value="famillySite2">아웃백</option>
+                                        <option value="famillySite3">창고43</option>
+                                        <option value="famillySite4">큰맘할매순대국</option>
+                                        <option value="famillySite5">족발상회</option>
+                                        <option value="famillySite6">그램그램</option>
+                                        <option value="famillySite7">수퍼두퍼</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="two">
+                            <ul>
+                                <li>대표이사 : 임금옥  &nbsp; &imath; &nbsp;
+                                    주소 : 서울시 송파구 올림픽로 300, 19층 (신천동)</li>
+                                <li>(주)비에이치씨 사업자등록번호 : 215-86-61559 &nbsp; &imath; &nbsp;
+                                    통신판매업 : 제2014-서울송파-0593호
+                                    </li>
+                                <li>문의전화 : 02-6204-3406 &nbsp; &imath; &nbsp;
+                                    FAX : 02-6988-2199</li>
+                            </ul>
+                        </div>
+                        <div class="three">
+                            COPYRIGHT © 2021 BHC ALL RIGHT RESERVED
+                        </div>
+                    </div>
+                    <div class="footer2-2">
+                        <img src="./images/img_ordernum.gif" alt="배달주문">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
+    </div>
+    <div class="quickMenu">
+        <div class="quickBox">
+            <div class="quick">QUICK</div>
+            <ul>
+                <li>
+                    <a href="https://online.bhc.co.kr/order/orderSelect.do"><img src="./images/hand-click.png" alt="주문하기">
+                        <p>주문하기</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bhc.co.kr/location/map.asp" alt="매장찾기"><img src="./images/building-store.png" alt="매장찾기">
+                        <p>매장찾기</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bhc.co.kr/foundation/cost.asp"><img src="./images/info-circle.png" alt="창업안내">
+                        <p>창업안내</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bhc.co.kr/foundation/advice03.asp"><img src="./images/brand-wechat.png" alt="온라인상담">
+                        <p>온라인상담</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://bhcmall.co.kr/main/"><img src="./images/shopping-cart.png" alt="BHC몰">
+                        <p>BHC몰</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 상단으로 가기 TOP 버튼 -->
+        <div class="button">
+            <a href="#" class="btn_top">TOP</a>
+        </div>
+        <!-- //quickMenu -->
+    </div>
+    <div id="popup">
+        <div class="close">X 닫기 </div>
+            <div class="video">
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/yzUwWQ8V1_I?si=JGg7wJss7lzrKauV?&loop=1&autoplay=1&mute=1&controls=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+    </div>
+    <!-- //popup -->
+</body>
+</html>
